@@ -27,8 +27,9 @@ function addSecond() {
 }
 
 // Reducer
-
-const TIMER_DURATION = 1500
+// If you want changed time, you must revised TIMER_DURATION number.
+// TIMER_DURATION is second.
+const TIMER_DURATION = 25*60
 
 const initialState = {
   isPlaying: false,
